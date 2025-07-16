@@ -13,7 +13,7 @@ import { InputTextStyle } from './style/inputtextstyle';
     selector: '[pInputText]',
     standalone: true,
     host: {
-        class: 'p-inputtext p-component',
+        class: 'p-inputtext p-component z-zzz',
         '[class.p-filled]': 'filled',
         '[class.p-variant-filled]': 'variant === "filled" || config.inputStyle() === "filled" || config.inputVariant() === "filled"',
         '[class.p-inputtext-fluid]': 'hasFluid',
